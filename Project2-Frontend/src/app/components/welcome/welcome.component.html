@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="welcome.component.css">
+		<link rel="function"  href="welcome.component.ts">
+    </head>
+<body class="bg">
+  <div class="container w-50">
+    <h2 id="welcome" class="p-2 text-center bg-light">Welcome to the Mixologist's Cookbook! Please Sign In Below</h2>
+    </div>
+
+<div class="container" style="margin-top: 5em; margin-bottom: 5em;">
+	<div class="d-flex justify-content-center h-100">
+		<div class="card">
+			<div class="card-header text-center">
+				<h3>Sign In</h3>
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-user"></i></span>
+						</div>
+						<input type="text" class="form-control" placeholder="username" [(ngModel)]="userName" id="FormControlInputUName" name="userName">
+
+					</div>
+					<div class="input-group form-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"><i class="fas fa-key"></i></span>
+						</div>
+						<input type="password" class="form-control" placeholder="password" [(ngModel)]="passWord" id="FormControlInputPass" name="passWord">
+					</div>
+					<div class="form-group text-center">
+						<!-- <button type="submit" class="btn-dark login_btn" (click)="loginFunc()">Login</button> -->
+						<button type="submit" class="btn-dark login_btn" (click)="loginFunc()" routerLink = "home">Login</button>
+					</div>
+				</form>
+			</div>
+			<div class="card-footer">
+				<div class="d-flex justify-content-center">
+					<h6>Don't have an account?</h6>
+                    <a class="btn link" routerLink="/new">Sign Up</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

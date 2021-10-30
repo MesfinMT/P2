@@ -2,9 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { CocktailComponent } from './components/cocktail/cocktail.component';
-import { IngredientComponent } from './components/ingredient/ingredient.component';
-import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
+import { RegistrationComponent } from './components/registration/registration.component';
+import { ReviewComponent } from './components/review/review.component';
 import { UserComponent } from './components/user/user.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
+
 
 const routes: Routes = [
 
@@ -14,18 +17,30 @@ const routes: Routes = [
   },
 
   {
-    path: "ingredients",
-    component: IngredientComponent
-  },
-
-  {
     path: "cocktails",
     component: CocktailComponent
   },
 
   {
-    path: "login",
-    component: LoginComponent
+    path: "new",
+    component: RegistrationComponent
+  },
+
+  {
+    path: "review",
+    component: ReviewComponent
+  },
+
+  {
+    path: "",
+    component: WelcomeComponent
+    
+  },
+
+  {
+    path: "home",
+    component: HomeComponent,
+    // canActivate:[WelcomeComponent]
   }
 
 ];
