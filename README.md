@@ -38,6 +38,8 @@ To-do list:
 
 git clone command
   git clone https://github.com/MesfinMT/P2.git
+  ![Layout2](https://user-images.githubusercontent.com/44088080/139851247-e74f992e-445c-4f16-b750-06bbadc8c526.png)
+
 environment setup steps
   Import the cloned backend spring project as Gradle project
   
