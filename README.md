@@ -31,14 +31,9 @@ List of features ready and TODOs for future development
     Edit user profile
     Give users statuses
     Allow users to upload their own recipes / twists
-To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
 ## Getting Started
 
 git clone command
-![Layout3](https://user-images.githubusercontent.com/44088080/139851271-691bedcb-cfdb-49ab-9c9f-7dcf68f0801a.png)
-  ![Layout2](https://user-images.githubusercontent.com/44088080/139851247-e74f992e-445c-4f16-b750-06bbadc8c526.png)
   git clone https://github.com/MesfinMT/P2.git
 
 environment setup steps
@@ -51,6 +46,8 @@ environment setup steps
 what it should look like
 Layout
 ![Layout1](https://user-images.githubusercontent.com/44088080/139850686-cd91cf9a-138e-4163-ba4f-af7bdbf26378.png)
+![Layout3](https://user-images.githubusercontent.com/44088080/139851271-691bedcb-cfdb-49ab-9c9f-7dcf68f0801a.png)
+![Layout2](https://user-images.githubusercontent.com/44088080/139851247-e74f992e-445c-4f16-b750-06bbadc8c526.png)
 
 ## Usage
 
