@@ -55,3 +55,4 @@ Then follow the above layout images to search and choose your favorite drinks
 ## Contributors
 Andreas Kustas, Freddie Tadeolomelin, Mesfin Tabor, Djetry Joseph, Evan Coye
 ## License
+None
