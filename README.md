@@ -50,7 +50,8 @@ Layout
 ![Layout2](https://user-images.githubusercontent.com/44088080/139851247-e74f992e-445c-4f16-b750-06bbadc8c526.png)
 
 ## Usage
-
+Login using username:username and password:password
+Then follow the above layout images to search and choose your favorite drinks
 ## Contributors
 Andreas Kustas, Freddie Tadeolomelin, Mesfin Tabor, Djetry Joseph, Evan Coye
 ## License
