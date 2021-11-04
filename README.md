@@ -1,5 +1,4 @@
-# PROJECT NAME
-The Mixologist’s Cookbook
+# The Mixologist's Cookbook
 >**PROJECT DESCRIPTION:** 
 The Mixologist’s Cookbook is an application where users will be able to find a recipe for any cocktail available in TheCocktailDB API. It will also be a place where they can store their favorite cocktails they have had, and search for a cocktail based on the ingredients they have. There will also be an option to choose a random cocktail if the user does not know what to make
 Users can register, login, & logout While visiting the site, users can explore different cocktails they'd like to try either by:
